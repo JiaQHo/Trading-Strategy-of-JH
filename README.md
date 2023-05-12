@@ -2,7 +2,7 @@
 Setting by MACD, MA, Vol, and many other methods. To analysis the potential trend of the stock each day.
 # 优势
 计算方式仅借助pandas和numpy，方便了解计算过程，调整参数和可视化。  
-analysis_linear_close为自编，根据收盘价将序列分为上升或下降，再构建线性回归，根据回归斜率以及收盘价关系确定是否适合。  
+analysis_linear_close这一指标的计算方式为自编，根据收盘价以时间序列分为上升或下降，再构建线性回归，根据回归斜率以及收盘价关系确定是否适合买卖。  
 # 简介
 1. 导入csv的格式参照tushare。  
 2. analysis分别用于计算buy、rise、decline、sell信号。  
